@@ -3,6 +3,23 @@ public class Book {
     private double price;
     private int quantity;
     private Author author;
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
     private int year;
 
     public Book(String name,double price,int quantity,Author author,int year){
@@ -27,4 +44,6 @@ public class Book {
                 ", year=" + year +
                 '}';
     }
-}
+
+
+    }
